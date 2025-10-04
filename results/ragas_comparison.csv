@@ -1,0 +1,5 @@
+Metric,Naive RAG,Advanced RAG,Improvement,Improvement %
+faithfulness,0.58,0.64,0.06000000000000005,10.34
+answer_relevancy,0.55,0.625,0.07499999999999996,13.64
+context_recall,0.605,0.66,0.05500000000000005,9.09
+context_precision,0.58,0.66,0.08000000000000007,13.79

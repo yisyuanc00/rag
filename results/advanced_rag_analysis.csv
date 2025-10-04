@@ -1,0 +1,13 @@
+config_name,query_rewriting,query_rewrite_method,reranking,initial_k,final_k,f1,exact_match,embedding_model,target_dimension,prompt_strategy_type
+"Advanced RAG (dim=384, K=1, prompt=CLEAR_INSTRUCTION)",True,hyde,True,10,1,44.22517490883351,32.0,all-MiniLM-L6-v2,384,CLEAR_INSTRUCTION
+"Advanced RAG (dim=384, K=1, prompt=FEW_SHOTS)",True,hyde,True,10,1,38.39500922079356,25.0,all-MiniLM-L6-v2,384,FEW_SHOTS
+"Advanced RAG (dim=384, K=3, prompt=CLEAR_INSTRUCTION)",True,hyde,True,10,3,37.99882299223924,25.0,all-MiniLM-L6-v2,384,CLEAR_INSTRUCTION
+"Advanced RAG (dim=384, K=3, prompt=FEW_SHOTS)",True,hyde,True,10,3,36.139909967030945,24.0,all-MiniLM-L6-v2,384,FEW_SHOTS
+"Advanced RAG (dim=384, K=5, prompt=CLEAR_INSTRUCTION)",True,hyde,True,10,5,37.83825468642582,27.0,all-MiniLM-L6-v2,384,CLEAR_INSTRUCTION
+"Advanced RAG (dim=384, K=5, prompt=FEW_SHOTS)",True,hyde,True,10,5,37.03315913549983,25.0,all-MiniLM-L6-v2,384,FEW_SHOTS
+"Advanced RAG (dim=256, K=1, prompt=CLEAR_INSTRUCTION)",True,hyde,True,10,1,45.22517490883351,33.0,all-MiniLM-L6-v2,256,CLEAR_INSTRUCTION
+"Advanced RAG (dim=256, K=1, prompt=FEW_SHOTS)",True,hyde,True,10,1,38.39500922079356,25.0,all-MiniLM-L6-v2,256,FEW_SHOTS
+"Advanced RAG (dim=256, K=3, prompt=CLEAR_INSTRUCTION)",True,hyde,True,10,3,37.984934103350355,25.0,all-MiniLM-L6-v2,256,CLEAR_INSTRUCTION
+"Advanced RAG (dim=256, K=3, prompt=FEW_SHOTS)",True,hyde,True,10,3,36.62360561920487,24.0,all-MiniLM-L6-v2,256,FEW_SHOTS
+"Advanced RAG (dim=256, K=5, prompt=CLEAR_INSTRUCTION)",True,hyde,True,10,5,36.677879973419536,25.0,all-MiniLM-L6-v2,256,CLEAR_INSTRUCTION
+"Advanced RAG (dim=256, K=5, prompt=FEW_SHOTS)",True,hyde,True,10,5,37.1338158969124,25.0,all-MiniLM-L6-v2,256,FEW_SHOTS

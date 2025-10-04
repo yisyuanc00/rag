@@ -1,0 +1,39 @@
+# requirements.txt  (Py 3.12/3.13, macOS arm64, text/RAG stack)
+
+# ─ Core
+pandas>=2.3,<2.4
+numpy>=2.3,<2.4
+scikit-learn>=1.5
+matplotlib
+
+# ─ PyTorch (MPS on Apple Silicon; NO torchvision/torchaudio)
+torch==2.5.1
+
+# ─ Hugging Face stack
+transformers==4.56.2
+tokenizers>=0.22,<0.23
+huggingface_hub>=0.24.0
+safetensors>=0.4.5
+evaluate>=0.4.2,<0.5
+
+# ─ Datasets / Arrow
+datasets>=4.0.0,<5
+pyarrow==17.*
+
+# ─ Sentence embeddings
+sentence-transformers==5.1.1
+
+# ─ Milvus / RAG eval
+pymilvus>=2.4,<3
+milvus-lite>=2.4
+ragas==0.3.5
+
+# ─ Jupyter & widgets
+notebook
+jupyterlab
+ipywidgets>=8.0.0
+jupyterlab-widgets>=3.0.0
+widgetsnbextension>=4.0.0
+
+# ─ QoL
+tqdm
