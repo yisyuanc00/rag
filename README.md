@@ -101,10 +101,6 @@ This project implements a complete RAG pipeline from naive baseline to advanced 
 
 1. **Clone Repository**
 
-```bash
-cd "Applications of NL(X) and LLM/95820_hw2"
-```
-
 2. **Create Virtual Environment**
 
 ```bash
@@ -420,13 +416,3 @@ Expected output:
 **RAGAs Framework**: [explodinggradients/ragas](https://github.com/explodinggradients/ragas)
 
 ---
-
-## Contact & Support
-
-For issues or questions:
-1. Check [Troubleshooting](#troubleshooting) section
-2. Review documentation in `docs/`
-3. Check code comments and docstrings
-
-**Last Updated**: October 2025
-**Version**: 1.0
